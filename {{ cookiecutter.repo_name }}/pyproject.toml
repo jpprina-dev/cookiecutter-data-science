@@ -17,7 +17,7 @@ version = "{{ cookiecutter.version }}"
 description = "{{ cookiecutter.project_description }}"
 readme = "README.md"
 authors = ["{{ cookiecutter.organization }} <{{ cookiecutter.email }}>"]
-license = "{{ cookiecutter.license }}"
+license = "{{ cookiecutter.open_source_license }}"
 repository = "https://github.com/{{ cookiecutter.github_name }}/{{ cookiecutter.project_name }}"
 homepage = "https://github.com/{{ cookiecutter.github_name }}/{{ cookiecutter.project_name }}"
 
@@ -29,7 +29,7 @@ classifiers = [  #! Update me
   "Intended Audience :: Developers",
   "Operating System :: OS Independent",
   "Topic :: Software Development :: Data Science",
-  "{{ license_classifiers[cookiecutter.license] }}",
+  "{{ license_classifiers[cookiecutter.open_source_license] }}",
   "Programming Language :: Python :: 3",
   {%- for minor_version in cookiecutter._all_python_minor_version if minor_version >= python_version_splitted[1] %}
   "Programming Language :: Python :: 3.{{ minor_version }}",{% endfor %}
