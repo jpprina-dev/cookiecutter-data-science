@@ -18,8 +18,6 @@ description = "{{ cookiecutter.project_description }}"
 readme = "README.md"
 authors = ["{{ cookiecutter.organization }} <{{ cookiecutter.email }}>"]
 license = "{{ cookiecutter.open_source_license }}"
-repository = "https://github.com/{{ cookiecutter.github_name }}/{{ cookiecutter.project_name }}"
-homepage = "https://github.com/{{ cookiecutter.github_name }}/{{ cookiecutter.project_name }}"
 
 # Keywords description https://python-poetry.org/docs/pyproject/#keywords
 keywords = []  #! Update me
