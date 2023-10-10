@@ -4,7 +4,7 @@
     "organization": "Ternium",
     "author_name": "Your name (or your team)",
     "email": "hello@{{ cookiecutter.organization.lower().replace(' ', '-') }}.com.br",
-    "description": "A short description of the project.",
+    "project_description": "A short description of the project.",
     "open_source_license": ["MIT", "BSD-3-Clause", "No license file"],
     "_all_python_minor_version": [7, 8, 9],
     "minimal_python_version": [3.7, 3.8, 3.9],
