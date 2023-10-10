@@ -4,7 +4,7 @@ default_context:
   project_name: "{{ cookiecutter.project_name }}"
   project_description: "{{ cookiecutter.project_description }}"
   organization: "{{ cookiecutter.organization }}"
-  license: "{{ cookiecutter.license }}"
+  open_source_license: "{{ cookiecutter.open_source_license }}"
   minimal_python_version: {{ cookiecutter.minimal_python_version }}
   email: "{{ cookiecutter.email }}"
   version: "{{ cookiecutter.version }}"
